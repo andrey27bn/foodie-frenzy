@@ -1,16 +1,53 @@
-# React + Vite
+# 🍽️ Foodie-Frenzy (Culinary Express)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen.svg)](https://foodie-frenzy-lake.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/github-repository-blue.svg)](https://github.com/andrey27bn/foodie-frenzy)
 
-Currently, two official plugins are available:
+> Современное веб-приложение для заказа еды с премиальным дизайном, плавной анимацией и удобным интерфейсом.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📸 Скриншот главной страницы
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Main Page Screenshot](https://github.com/andrey27bn/foodie-frenzy/blob/main/public/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-01-08%20152259.png)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Основные возможности
+
+* **Интерактивное меню**: Полный список блюд, разделенных по категориям (Завтрак, Обед, Ужин, Мексиканская кухня и др.) с удобной фильтрацией.
+* **Специальные предложения**: Секция «Special Offers» с анимированными карточками и эффектами частиц при наведении.
+* **Умная корзина**: Полноценное управление заказами — добавление, удаление, изменение количества и мгновенный расчет итоговой суммы.
+* **Премиальный UI/UX**: Использование темной темы с золотистыми акцентами, эффекты размытия фона (backdrop-blur) и плавающие частицы.
+* **Анимации**: Плавные переходы, появления и интерактивные отклики элементов благодаря `framer-motion`.
+* **Система авторизации**: Полноценные формы входа и регистрации с валидацией и сохранением сессии.
+* **Обратная связь**: Интерактивная страница контактов с уведомлениями в реальном времени через `react-hot-toast`.
+
+## 🛠 Технологический стек
+
+* **Frontend**: React.js
+* **Стилизация**: Tailwind CSS
+* **Анимации**: Framer Motion
+* **Иконки**: React Icons (Lucide, Font Awesome, Fi)
+* **Уведомления**: React Hot Toast
+* **Маршрутизация**: React Router DOM
+
+
+## 🔧 Установка и запуск
+
+1. **Клонируйте репозиторий:**
+   ```bash
+   git clone [https://github.com/andrey27bn/foodie-frenzy.git](https://github.com/andrey27bn/foodie-frenzy.git)
+   
+2. **Перейдите в папку проекта:**
+   ```bash
+   cd foodie-frenzy
+   
+3. **Установите все зависимости:**
+   ```bash
+   npm install
+   
+4. **Запустите проект в режиме разработки:**
+   ```bash
+   npm run dev
